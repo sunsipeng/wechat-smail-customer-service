@@ -6,5 +6,5 @@ exports.receiveMeassage = function(req,res,next){
 	console.log(req.query.timestamp);
 	console.log(req.query.nonce);
 	console.log(req.query.echostr);
-	res.send(echostr);
+	res.send(req.query.echostr);
 }
