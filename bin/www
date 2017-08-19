@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var debug = require('debug')('evaluation-sys:server');
+var debug = require('debug')('wechat-smailProgram-customer-service:server');
 var http = require('http');
 var logger = require('log4js').getLogger("start");
 
